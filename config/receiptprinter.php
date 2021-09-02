@@ -10,7 +10,7 @@ return [
     | Valid values are: cups, network, windows
     |
     */
-    'connector_type' => 'cups',
+    'connector_type' => 'network',
     /*
     |--------------------------------------------------------------------------
     | Printer connector descriptor
@@ -19,7 +19,7 @@ return [
     | Typically printer name or IP address.
     |
     */
-    'connector_descriptor' => 'EPSON_TM_T82_S_A',
+    'connector_descriptor' => '192.168.1.211',
     /*
     |--------------------------------------------------------------------------
     | Printer port
